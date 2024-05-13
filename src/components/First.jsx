@@ -40,7 +40,7 @@ const First = () => {
           <p>5/5/7073 10:05 PM</p>
 
           <p className="text-base font-medium">OUT FOR DELIVERY</p>
-          <p>TO</p>
+          <p className="text-base font-medium">TO</p>
           <p>SAINTIOUIS MO US</p>
         </div>
       </div>
