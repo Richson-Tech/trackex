@@ -6,23 +6,24 @@ import { MdAccountCircle } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#1f3f71] p-4 flex justify-between items-center">
+    <nav className="bg-[#1f3f71] h-20 p-4 flex justify-between items-center text-white">
       {/* Left content */}
+
+      {/* Right content */}
+      <Image
+        src="/fedd.png"
+        alt="fedex image"
+        width={95}
+        height={95}
+        className="object-center object-cover"
+      />
+      <p>Sign up or Login</p>
+
+      <MdAccountCircle className="text-white" size={25} />
       {/* Dropdown */}
       <div className="md:hidden">
         <Menu />
       </div>
-
-      {/* Right content */}
-      {/* <Image
-        src="/bank.png"
-        alt="phone image"
-        width={145}
-        height={225}
-        className="object-center object-cover"
-      /> */}
-
-      <MdAccountCircle className="text-white" size={25}/>
     </nav>
   );
 };
