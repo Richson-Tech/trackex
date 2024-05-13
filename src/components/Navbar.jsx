@@ -6,7 +6,7 @@ import { MdAccountCircle } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#1f3f71] h-20 p-4 flex justify-between items-center text-white">
+    <nav className="bg-[#4D148C] h-20 p-4 flex justify-between items-center text-white">
       {/* Left content */}
 
       {/* Right content */}

@@ -3,12 +3,18 @@ import React from "react";
 const First = () => {
   return (
     <div>
-      <div className="flex flex-col">
-        <h5>UPDATED DELIVERY</h5>
-        <h1>MONDAY</h1>
-        <h5>13/05/2024 by end of today</h5>
-        <h6>Initially expected: Tuesday, 5/9/2023</h6>
-        <h6>Early</h6>
+      <div className="flex flex-col ml-4">
+        <p className="mt-3 text-base font-medium">UPDATED DELIVERY</p>
+        <h1 className="text-3xl tracking-normal mt-3 font-medium font-sans">
+          MONDAY
+        </h1>
+        <h5 className="mt-3 text-base">13/05/2024 by end of today</h5>
+        <h6>
+          <em>Initially expected: Tuesday, 5/9/2023</em>
+        </h6>
+        <h6 className="border-solid border-2 border-[#4D148C] rounded-full mt-4 w-20 px-5">
+          Early
+        </h6>
         <h2>DELIVERY STATUS</h2>
         <div className="flex flex-row">
           <h5>In Transit </h5>
