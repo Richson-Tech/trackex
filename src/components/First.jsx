@@ -11,7 +11,7 @@ const First = () => {
         </h1>
         <h5 className="mt-3 text-base">13/05/2024 by end of today</h5>
         <h6>
-          <em>Initially expected: Tuesday, 5/9/2023</em>
+          <em>Initially expected: Sunday, 12/05/2024</em>
         </h6>
         <h6 className="border-solid border-2 border-[#4D148C] rounded-full my-4 w-20 px-5">
           Early
@@ -19,7 +19,7 @@ const First = () => {
         <h2 className="text-base font-medium">DELIVERY STATUS</h2>
         <div className="flex flex-row space-x-2">
           <h5>In Transit </h5>
-          <FaArrowRight size={25} />
+          <FaArrowRight className="text-[#4D148C]" size={25} />
         </div>
         <h5 className="mt-4 text-base font-medium">TRACKING ID </h5>
         <div className="flex flex-row mb-4">
@@ -27,21 +27,25 @@ const First = () => {
         </div>
         <div>
           <p className="text-base font-medium">FROM</p>
-          <p>LONG BEACH, CA US</p>
-          <p>Label Created</p>
-          <p>5/3/7073 8•31 AM</p>
+          <p>FORT PIERCE FL, US</p>
+          <p className="font-sans">
+            <em>Label Created</em>
+          </p>
+          <p>12/05/2024 11:31 AM</p>
 
-          <p className="text-base font-medium">PACKAGE RECEIVED BY FEDEX</p>
-          <p>SANTA FE SPRINGS, CA</p>
-          <p>5/3/2023 12:00 AM</p>
+          <p className="text-base mt-3 font-medium">
+            PACKAGE RECEIVED BY FEDEX
+          </p>
+          <p>20020 CORTEZ BLVD, BROOKSVILLE, FL</p>
+          <p>12/05/2023 4:30:00 PM</p>
+          <div className="w-70 bg-slate-300 px-3 py-2">
+            <p className="text-base mt-3 font-medium">IN TRANSIT</p>
+            <p>20020 CORTEZ BLVD, BROOKSVILLE, FL</p>
+            <p>13/05/2023</p>
+          </div>
 
-          <p className="text-base font-medium">IN TransIT</p>
-          <p>KANSAS CITY. MO</p>
-          <p>5/5/7073 10:05 PM</p>
-
-          <p className="text-base font-medium">OUT FOR DELIVERY</p>
-          <p className="text-base font-medium">TO</p>
-          <p>SAINTIOUIS MO US</p>
+          <p className="text-base mt-3 font-medium">OUT FOR DELIVERY TO</p>
+          <p>19063, YONTZ ROAD BROOKSVILLE, FL, US</p>
         </div>
       </div>
     </div>
