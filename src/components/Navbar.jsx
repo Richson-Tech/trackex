@@ -14,13 +14,13 @@ const Navbar = () => {
       </div>
 
       {/* Right content */}
-      <Image
+      {/* <Image
         src="/bank.png"
         alt="phone image"
         width={145}
         height={225}
         className="object-center object-cover"
-      />
+      /> */}
 
       <MdAccountCircle className="text-white" size={25}/>
     </nav>
