@@ -1,4 +1,5 @@
 import React from "react";
+import { FaArrowRight } from "react-icons/fa6";
 
 const First = () => {
   return (
@@ -12,32 +13,33 @@ const First = () => {
         <h6>
           <em>Initially expected: Tuesday, 5/9/2023</em>
         </h6>
-        <h6 className="border-solid border-2 border-[#4D148C] rounded-full mt-4 w-20 px-5">
+        <h6 className="border-solid border-2 border-[#4D148C] rounded-full my-4 w-20 px-5">
           Early
         </h6>
-        <h2>DELIVERY STATUS</h2>
-        <div className="flex flex-row">
+        <h2 className="text-base font-medium">DELIVERY STATUS</h2>
+        <div className="flex flex-row space-x-2">
           <h5>In Transit </h5>
-          <h5 className="mt-4">TRACKING ID </h5>
-          <div className="flex flex-row">
-            <h6>785005280643</h6>
-          </div>
+          <FaArrowRight size={25} />
+        </div>
+        <h5 className="mt-4 text-base font-medium">TRACKING ID </h5>
+        <div className="flex flex-row mb-4">
+          <h6>785005280643</h6>
         </div>
         <div>
-          <p>FROM</p>
+          <p className="text-base font-medium">FROM</p>
           <p>LONG BEACH, CA US</p>
           <p>Label Created</p>
           <p>5/3/7073 8•31 AM</p>
 
-          <p>PACKAGE RECEIVED BY FEDEX</p>
+          <p className="text-base font-medium">PACKAGE RECEIVED BY FEDEX</p>
           <p>SANTA FE SPRINGS, CA</p>
           <p>5/3/2023 12:00 AM</p>
 
-          <p>IN TransIT</p>
+          <p className="text-base font-medium">IN TransIT</p>
           <p>KANSAS CITY. MO</p>
           <p>5/5/7073 10:05 PM</p>
 
-          <p>OUT FOR DELIVERY</p>
+          <p className="text-base font-medium">OUT FOR DELIVERY</p>
           <p>TO</p>
           <p>SAINTIOUIS MO US</p>
         </div>
